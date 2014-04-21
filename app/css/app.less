@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Metal+Mania);
+@import url(http://fonts.googleapis.com/css?family=Jim+Nightshade);
+
+#board{
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgba(255,255,255,.3);
+}
+
+#wrapper{
+  margin: 0 auto;
+}
+
+#start{
+  margin: 5px auto;
+  display: block;
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 20px;
+}
+
+h1{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 45px;
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
+  text-shadow: 2px 2px rgba(255,255,255,.5);
+}
+
+html{
+  background-image: url('/media/bg.jpg');
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+}
+
+td{
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+}
+
+ img{
+   width: 50px;
+   height: 50px;
+ }
+
+.current{
+  background-color: rgba(0,0,0, .8) !important;
+}
+
+.valid{
+  background-color: rgba(0,0,0, .6);
+}
+
+.player1{
+  background-image: url('../media/gryf.png');
+  background-size: 100%;
+}
+
+.player2{
+  background-image: url('../media/slyth.png');
+  background-size: 100%;
+}
+.king.player1{
+  background-image: url('../media/dumbledor.png');
+}
+.king.player2{
+  background-image: url('../media/snape.png');
+}
+.selected{
+  background-size: 110%;
+}
+.possible{
+  background-color: yellow;
+}
